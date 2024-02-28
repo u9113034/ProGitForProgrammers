@@ -1,18 +1,31 @@
 ﻿using System;
 using System.Reflection.Metadata.Ecma335;
 
-public class Class1
+namespace ProGitForProgrammers
 {
-	class Calculator
+	public class Class1
 	{
-		public int Add(int left, int right)
+		class Calculator
 		{
-			return left + right;
-		}
+			public int Add(int left, int right)
+			{
+				return left + right;
+			}
 
-		public int Subtract(int left, int right)
-		{
-			return left - right;
+			public int Subtract(int left, int right)
+			{
+				return left - right;
+			}
+
+			public int Multiply(int left, int right)
+			{
+				return left * right;
+			}
+
+			public int Divide(int left, int right)
+			{
+				return left / right;
+			}
 		}
 	}
 }

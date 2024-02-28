@@ -1,5 +1,5 @@
 ﻿using System;
-
+// This is a comment.
 namespace ProGitForProgrammers
 {
     class Book
@@ -9,7 +9,7 @@ namespace ProGitForProgrammers
         public List<string> Authors { get; set; }
 
         public DateTime PublicationDate { get; set; }
-        
+
     }
 }
 
